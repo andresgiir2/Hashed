@@ -11,7 +11,6 @@ class Program
         string hashedPassword = HashPassword(password);
         Console.WriteLine($"Contraseña encriptada: {hashedPassword}");
 
-        // Supongamos que este es el hash almacenado
         string storedHash = hashedPassword;
 
         Console.Write("Verifique su contraseña: ");
